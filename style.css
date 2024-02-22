@@ -41,4 +41,11 @@ body {
 
 #header {
     padding-top: 5%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
