@@ -13,10 +13,10 @@ html {
 
 .bg-dark {
     background: #555555;
-    color: #565656;
+    color: #ffffff;
 }
-.bg-orange {
-    background: #4c4c4c;
+.bg-light {
+    background: #777777;
     color: #ffffff;
 }
 
