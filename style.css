@@ -48,9 +48,9 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 5px;
 }
 
 nav button {
-    margin: 10px;
-    padding: 5px;
+    padding: 5px 10px;
 }
