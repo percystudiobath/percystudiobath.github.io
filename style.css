@@ -9,10 +9,6 @@ body {
 .content-block {
     width: 100%;
     padding: 2% 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bg-dark {
@@ -37,6 +33,7 @@ body {
 .container {
     width: 1280px;
     padding: 1%;
+    margin: auto;
 }
 
 #header {
@@ -48,7 +45,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 nav button {
