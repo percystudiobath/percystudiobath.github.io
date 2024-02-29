@@ -158,3 +158,38 @@ nav button {
     display: flex;
     flex-direction: column;
 }
+
+#equipment-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#equipment-grid > div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#equipment-grid > div > img {
+    position: absolute;
+    background: #ffffff;
+    object-fit: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#equipment-grid > div > div.info {
+    opacity: 0;
+    z-index: 1;
+    background-image: #000000cc;
+    transition: opacity 0.5s;
+}
+
+#equipment-grid > div:hover > div.info {
+    opacity: 1;
+}
