@@ -24,6 +24,7 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     width: 1280px;
     padding: 3% 3%;
     margin: auto;
