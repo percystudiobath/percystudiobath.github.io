@@ -48,13 +48,15 @@ nav button {
 
 #header-video-bg-container {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     z-index: -2;
     text-align: center;
 }
 
 #header-video-bg-container > video {
     position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
