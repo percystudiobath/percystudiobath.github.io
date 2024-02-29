@@ -35,11 +35,6 @@ body {
     margin: auto;
 }
 
-#header {
-    padding-top: 5%;
-    text-align: center;
-}
-
 nav {
     display: flex;
     flex-direction: row;
@@ -54,6 +49,8 @@ nav button {
 #header-video-bg-container {
     position: relative;
     height: 50vh;
+    z-index: -2;
+    text-align: center;
 }
 
 #header-video-bg-container > video {
