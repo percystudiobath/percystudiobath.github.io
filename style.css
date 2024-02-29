@@ -32,6 +32,7 @@ p:last-child {
 
 h1, h2, h3 {
     font-weight: 300;
+    margin-bottom: 0.5em;
 }
 
 h1:first-child,
@@ -132,7 +133,7 @@ nav button {
 
 #header-video-bg-container h1, 
 #header-video-bg-container h2 {
-    margin: 5px;
+    margin: 5px 0;
 }
 
 #header-video-bg-container > video {
