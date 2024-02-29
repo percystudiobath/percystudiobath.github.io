@@ -172,19 +172,22 @@ nav button {
     position: relative;
 }
 
-#equipment-grid > div > img {
+#equipment-grid > div > * {
     position: absolute;
-    background: #ffffff;
-    object-fit: cover;
-    z-index: -1;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
 }
 
+#equipmnt-grid > div > img {
+    background: #ffffff;
+    object-fit: cover;
+}
+
 #equipment-grid > div > div.info {
     opacity: 0;
+    position: absolute;
     z-index: 1;
     background-image: #000000cc;
     transition: opacity 0.5s;
