@@ -195,6 +195,7 @@ nav button {
     z-index: 1;
     background: #000000cc;
     transition: opacity 0.2s;
+    box-sizing: border-box;
     padding: 0.5em;
 }
 
