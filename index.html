@@ -12,12 +12,13 @@
         <button onClick="play()">cool stuff</button>
       </nav>
       </div>
-    <div id="header" class="content-block bg-light">
-      <div>
-        <h1>Percy Recording Studio</h1>
-        <h2>Your #1 spot for <span class="orang">quality</span> choonage</h2>
+    <div id="header" class="content-block">
+        <video src="/media/montage.webm" autoplay muted loop></video>
+        <div id="video-overlay">
+          <h1>Percy Recording Studio</h1>
+          <h2>Your #1 spot for <span class="orang">quality</span> choonage</h2>
+        </div>
       </div>
-    </div>
     <div class="content-block bg-dark">
       <div class="container">
         <h3>The space</h3>
@@ -42,6 +43,6 @@
         audio.play();
       }
     </script>
-    <audio src="/powerUp.wav" id="power-up">
+    <audio src="/media/powerUp.wav" id="power-up">
   </body>
 </html>

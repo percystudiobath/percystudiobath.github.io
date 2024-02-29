@@ -20,6 +20,10 @@ body {
     color: #ffffff;
 }
 
+#header {
+    color: #ffffff;
+}
+
 .orang {
     color: #ffaa00;
 }
@@ -50,4 +54,23 @@ nav {
 
 nav button {
     padding: 5px 10px;
+}
+
+#video-bg-container {
+    position: relative;
+}
+
+#video-bg-container > video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+#video-overlay {
+    background: #000000cc;
 }
