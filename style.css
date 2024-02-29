@@ -166,6 +166,10 @@ nav button {
     gap: 1em;
 }
 
+#equipment-grid * {
+    margin: 0;
+}
+
 #equipment-grid > div {
     width: 100px;
     height: 100px;
@@ -189,8 +193,9 @@ nav button {
     opacity: 0;
     position: absolute;
     z-index: 1;
-    background-image: #000000cc;
-    transition: opacity 0.5s;
+    background: #000000cc;
+    transition: opacity 0.2s;
+    padding: 0.5em;
 }
 
 #equipment-grid > div:hover > div.info {
