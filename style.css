@@ -2,12 +2,12 @@
     font-family: "Rokkitt";
     src:
         local("Rokkitt"),
-        url("media/Rokkitt-VariableFont_wght.ttf") format("ttf");
+        url("/media/Rokkitt-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: "Rokkitt";
-    src:url("media/Rokkitt-Italic-VariableFont_wght.ttf") format("ttf");
+    src:url("/media/Rokkitt-Italic-VariableFont_wght.ttf");
     font-style: italic;
   }
 
