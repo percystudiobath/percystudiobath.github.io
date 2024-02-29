@@ -23,6 +23,13 @@ body {
     color: #ffaa00;
 }
 
+.vertical-centre {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
 .container {
     box-sizing: border-box;
     width: 1280px;
